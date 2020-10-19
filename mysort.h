@@ -3,6 +3,7 @@
 
 #include <vector>
 using namespace std;
+
 template<typename T>
 void myQuickSort(vector<T>& v, size_t begin, size_t end) {
     if(begin < end) {
